@@ -1,0 +1,17 @@
+/* 通用样式 */
+$primary-bgcolor: #e5f3fe;
+$primary-color: #333;
+.bg-primary {
+  background: $primary-bgcolor;
+}
+html,
+body,
+#app {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: $primary-bgcolor;
+  font-size: PingFangSC, PingFangSC-Regular;
+}
+.btn-block {
+  width: 100%;
+}
